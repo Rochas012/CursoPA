@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cor-azul {
+    color: blue; 
+    background-color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.quadrado-roxo {
+    background-color: rgb(164, 1, 185);
+    color: black;
+    height: 150px;
+    width: 150px;
+}
+
+
+.alinhamento {
+    display: flex;
+    justify-content:start;
+    align-content: end;
+    height: 100vh;  
+  
+}
