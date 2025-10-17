@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.linha {
+  flex: 1;
+  display: flex;
+}
+
+.linha1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.parte {
+  flex: 1;
+  position: relative;
+}
+
+.azul {
+  background-color: #3db8ff;
+}
+
+.amarela {
+  background-color: #fff13b;
+}
+
+.quadrado.pequeno {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+}
+
+.azul .quadrado.amarelo.pequeno {
+  left: 2vw;
+  top: 2vw;
+  background-color: #fff13b;
+}
+
+.amarela .quadrado.azul.pequeno {
+  right: 2vw;
+  top: 2vw;
+  background-color: #3db8ff;
+}
+
+.linha2 {
+  background-color: white;
+  position: relative;
+}
+
+.linha3 {
+  background-color: #3db8ff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linha3 .quadrado.amarelo {
+  position: static;
+  width: 6vw;
+  height: 6vw;
+  background-color: #fff13b;
+}
+
+.meio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meio-alinha {
+  height: 68px;
+}
+
+
+.quadrado.amarelo1 {
+  position: center;
+  width: 6vw;
+  height: 6vw;
+  background-color: #fff13b;
+}
